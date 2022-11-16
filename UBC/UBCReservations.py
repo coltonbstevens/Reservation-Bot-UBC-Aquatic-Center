@@ -25,7 +25,6 @@ driver = webdriver.Chrome(service=s)
 url='https://ubc.perfectmind.com/24063/Clients/BookMe4BookingPages/Classes?calendarId=177b4c03-533a-4d92-8b47-6dce1d39a5ae&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=False'
 driver.get(url)
 
-
 username = input("Enter your CWL username:")
 password = input("Enter your CWL password:")
 
