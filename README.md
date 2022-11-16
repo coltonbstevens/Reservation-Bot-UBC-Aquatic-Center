@@ -1,5 +1,7 @@
 # Reservation Bot - UBC Aquatic Center
 
+https://user-images.githubusercontent.com/90413043/202296605-3c9b319d-d871-4926-8809-b729215f2765.mov
+
 UBCReservations.py contains code to automatically reserve time slots at the UBC Aquatic Center using the Selenium Web Driver.
 
 ## Description
@@ -19,3 +21,7 @@ You can tweak the script and use Cron or the Windows Task Manager to fully autom
 ## Author:
 
 Colton Stevens
+
+
+
+
