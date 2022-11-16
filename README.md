@@ -2,7 +2,7 @@
 
 https://user-images.githubusercontent.com/90413043/202296605-3c9b319d-d871-4926-8809-b729215f2765.mov
 
-`UBCReservations.py` contains code to automatically reserve time slots at the UBC Aquatic Center using the Selenium Web Driver.
+`UBCReservations.py` contains code to automatically reserve time slots at the University of British Columbia Aquatic Center using the Selenium Web Driver.
 
 ## Description
 
