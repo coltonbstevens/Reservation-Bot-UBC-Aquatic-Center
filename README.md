@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/90413043/202296605-3c9b319d-d871-4926-
 The most competitive time slots at fitness facilities often book up before you can even reserve them! 
 Selenium's Web Driver speeds up the process, reserving your chosen time slot much faster than a human can.
 
-This project demonstrates how Seleniumn can be used to automatically reserve time slots.
+This project demonstrates how Selenium can be used to automatically reserve time slots.
 The code is tailored to the UBC Aquatic center, but you can apply the same principles to almost any reservation system. 
 The general steps are as follows:
 - Load the URL with Selenium's WebDriver.
