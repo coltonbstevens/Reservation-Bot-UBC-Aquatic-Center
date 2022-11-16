@@ -26,11 +26,8 @@ url='https://ubc.perfectmind.com/24063/Clients/BookMe4BookingPages/Classes?calen
 driver.get(url)
 
 
-"""username = input("Enter your CWL username:")
-password = input("Enter your CWL password:")"""
-
-username = 'colton04'
-password = 'DvC6SiS58ryQ!'
+username = input("Enter your CWL username:")
+password = input("Enter your CWL password:")
 
 # Event names from the website
 eventList = ['25m Length Swim', 'Leisure Pool','25m Length Toonie Swim UBC Staff/Faculty',
@@ -56,7 +53,7 @@ passwordBox.send_keys(password)
 passwordBox.send_keys(Keys.ENTER)
 
 # Store the dates available for reservations
-dates = WebDriverWait(driver,timeout=30).until(lambda d: d.find_elements('xpath','//h2[contains(text(),"2022")]'))
+dates = WebDriverWait(driver,timeout=30).until(lambda d: d.find_elements('xpath','//h2[contains(text(),"202")]'))
 
 # Store the classes available for reservations
 table = WebDriverWait(driver,timeout=30).until(lambda d: d.find_element('xpath','//*[@id="classes"]'))
